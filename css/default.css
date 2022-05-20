@@ -185,12 +185,11 @@ a:focus,
 a:hover,
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
-    color: #2B96CC;
+    color: #fa7c30;
     text-decoration: none;
 }
-a,
-button {
-    color: #1696e7;
+a, button {
+    color: #fa7c30;
     outline: medium none;
 }
 .btn {
