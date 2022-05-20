@@ -7,6 +7,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-style: normal;
+	background-color: #f1f4f6;
 }
 /* container, row and cols */
 .container{
@@ -235,10 +236,11 @@ h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
 }
 h1 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 700;
 }
 h2 {
-    font-size: 35px;
+    font-size: 36px;
+	font-weight: 700;
 }
 h3 {
     font-size: 28px;
@@ -334,12 +336,14 @@ a{
 }
 
 /* Color */
-
+.gray-color{
+	color: #8a8b8d;
+}
 .white-color {
 	color: #fff;
 }
 .black-color {
-	color: #222;
+	color: #000;
 }
 .theme-color {
 	color: #fa7c30;

@@ -69,14 +69,11 @@ Top Banner
 /* ==========
 Booking Area
 ============= */
-section.booking {
-    margin-top: -210px;
-
-}
 .booking-area {
-    box-shadow: 0 3px 40px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 40px 0px;
     height: 514px;
-    background: #fff;
+    background: rgb(255, 255, 255);
+    margin-top: -210px;
 }
 .book-contant h3 {
     font-size: 26px;
@@ -174,4 +171,13 @@ input#email {
 }
 input:focus{
     outline: none;
+}
+/* =============
+About Us Area
+================ */
+section.about-us {
+    height: 900px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #f1f4f6;
 }
