@@ -198,8 +198,9 @@ Personal Trainer Area
 ======================= */
 section.p-trainer {
     height: 500px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-color: #fff;
 }
 .p-trainer-overlay-color{
     height: 500px;
@@ -213,4 +214,16 @@ section.p-trainer {
 .p-trainer-contant h2 {
     font-size: 70px;
     line-height: 1;
+}
+/* =====================
+Expert Trainer Area
+======================== */
+.trainer-info h4 {
+    font-size: 26px;
+    font-weight: 700;
+}
+.trainer-info span {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
 }
