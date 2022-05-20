@@ -227,3 +227,22 @@ Expert Trainer Area
     font-weight: 700;
     font-size: 14px;
 }
+/* ==========
+Media Area
+============= */
+.left-side {
+    height: 320px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.left-contant h4 {
+    font-size: 14px;
+}
+.right-side {
+    height: 320px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.right-contant h4 {
+    font-size: 14px;
+}
