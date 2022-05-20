@@ -51,7 +51,7 @@ Top Banner
     margin-top: -80px;
 }
 .top-banner-contant h2 {
-    font-size: 70px;
+    font-size: 55px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -66,4 +66,112 @@ Top Banner
     background-color: #00000040;
     margin-top: -800px;
 }
+/* ==========
+Booking Area
+============= */
+section.booking {
+    margin-top: -210px;
 
+}
+.booking-area {
+    box-shadow: 0 3px 40px 0 rgba(0, 0, 0, 0.1);
+    height: 514px;
+    background: #fff;
+}
+.book-contant h3 {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.book-contant h2 {
+    font-size: 36px;
+    line-height: 30px;
+    margin-bottom: 65px;
+}
+.booking-form {
+    margin-bottom: 70px;
+}
+.nice-select {
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px #161418;
+    display: inline-block;
+    float: none;
+    font-size: 14px;
+    color: #161418;
+    padding-left: 0;
+    padding-right: 30px;
+    width: 160px;
+    text-transform: capitalize;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.nice-select:hover {
+    border-color: #161418;
+}
+.nice-select .list {
+    width: 100%;
+}
+.date {
+    position: relative;
+    display: inline-block;
+}
+.date span {
+    width: 160px;
+    display: inline-block;
+    text-align: left;
+    padding: 12px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #161418;
+    margin-right: 20px;
+}
+input#date {
+    width: 20px;
+    right: 20px;
+    bottom: 23%;
+    position: absolute;
+}
+input#date:focus{
+    outline: none;
+}
+.time {
+    display: inline-block;
+    position: relative;
+}
+.time span {
+    width: 160px;
+    display: inline-block;
+    text-align: left;
+    padding: 12px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #161418;
+}
+input#time {
+    background: none;
+    width: 31px;
+    text-align: center;
+    border: navajowhite;
+    font-size: 26px;
+    position: absolute;
+    top: 23%;
+    right: 0;
+}
+input#time:focus{
+    outline: none;
+}
+input#phone {
+    border: none;
+    padding: 14px 0;
+    width: 160px;
+    border-bottom: 1px solid #161418;
+    margin-right: 20px;
+}
+input#email {
+    border: none;
+    padding: 14px 0;
+    width: 160px;
+    border-bottom: 1px solid #161418;
+}
+input:focus{
+    outline: none;
+}

@@ -13,6 +13,7 @@
 
     <!-- CSS here -->
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -67,14 +68,61 @@
             </div>
         </div>
     </section>
-    <div class="overlay-color">
-
-    </div>
+    <div class="overlay-color"></div>
     <!-- Top Banner Area End -->
+    <!-- Booking Area Start -->
+    <section class="booking mb-40">
+        <div class="container">
+            <div class="booking-area">
+             <div class="row">
+                    <div class="col-4">
+                        <div class="booking-img">
+                            <img src="img/booking.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 text-center d-flex align-items-center">
+                        <div class="book-contant uppercase">
+                            <h3>Free 7 days</h3>
+                            <h2>online booking</h2>
+                            <div class="booking-form">
+                                <form action="#">
+                                    <select name="people" id="people">
+                                        <option value="-Pleace Select-">people</option>
+                                        <option value="1 people">1 people</option>
+                                        <option value="2 people">2 people</option>
+                                        <option value="3 people">3 people</option>
+                                    </select>
+                                    <div class="date">
+                                        <span>Date</span>
+                                        <input type="date" name="date" id="date">
+                                    </div>
+                                    <div class="time">
+                                        <span>Time</span>
+                                        <input type="time" name="time" id="time">
+                                    </div>
+                                    <select name="people" id="people">
+                                        <option value="-Pleace Select-">Name</option>
+                                        <option value="1 people">Name 1</option>
+                                        <option value="2 people">Name 2</option>
+                                        <option value="3 people">Name 3</option>
+                                    </select>
+                                    <input type="tel" name="phone" id="phone" placeholder="Phone">
+                                    <input type="email" name="email" id="email" placeholder="Email">
+                                </form>
+                            </div>
+                            <a href="#" class="btn">Get in touch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Booking Area End -->
 
     <!-- JS here -->
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
