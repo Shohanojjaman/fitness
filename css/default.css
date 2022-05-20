@@ -36,63 +36,65 @@ body {
 .col-1 {
 	flex: 0 0 auto;
 	width: 8.33333333%;
+	padding: 0 10px;
 }
-
 .col-2 {
 	flex: 0 0 auto;
 	width: 16.66666667%;
+	padding: 0 10px;
 }
-
 .col-3 {
 	flex: 0 0 auto;
 	width: 25%;
+	padding: 0 10px;
 }
-
 .col-4 {
-	flex: 0 0 auto;
-	width: 33.33333333%;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    padding: 0 10px;
 }
-
 .col-5 {
 	flex: 0 0 auto;
 	width: 41.66666667%;
+	padding: 0 10px;
 }
-
 .col-6 {
 	flex: 0 0 auto;
 	width: 50%;
 }
-
 .col-7 {
 	flex: 0 0 auto;
 	width: 58.33333333%;
+    padding: 0 10px;
 }
-
 .col-8 {
 	flex: 0 0 auto;
 	width: 66.66666667%;
+	padding: 0 10px;
 }
-
 .col-9 {
 	flex: 0 0 auto;
 	width: 75%;
+	padding: 0 10px;
 }
-
 .col-10 {
 	flex: 0 0 auto;
 	width: 83.33333333%;
+	padding: 0 10px;
 }
-
 .col-11 {
 	flex: 0 0 auto;
 	width: 91.66666667%;
+	padding: 0 10px;
 }
-
 .col-12 {
 	flex: 0 0 auto;
 	width: 100%;
+	padding: 0 10px;
 }
-
+.g-0{
+	padding: 0;
+}
 /* flex */
 .d-flex{
 	display: flex;
@@ -198,6 +200,7 @@ button {
     font-weight: 700;
     border: 2px solid transparent;
     text-transform: uppercase;
+    display: inline-block;
 }
 .btn:hover {
     border-color: #fa7c30;

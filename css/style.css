@@ -61,7 +61,7 @@ Top Banner
     line-height: 30px;
     margin-bottom: 70px;
 }
-.overlay-color {
+.top-banner-overlay-color {
     height: 800px;
     background-color: #00000040;
     margin-top: -800px;
@@ -180,4 +180,37 @@ section.about-us {
     background-position: right;
     background-repeat: no-repeat;
     background-color: #f1f4f6;
+}
+/* ===============
+Program Area
+================== */
+.program-img img {
+    width: 100%;
+}
+.program-contant h3{
+    font-weight: 700;
+}
+.program-contant {
+    padding: 40px 45px 35px;
+}
+/* ====================
+Personal Trainer Area
+======================= */
+section.p-trainer {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.p-trainer-overlay-color{
+    height: 500px;
+    background-color: #00000040;
+    margin-top: -500px;
+}
+.p-trainer-contant h4 {
+    font-size: 36px;
+    line-height: 30px;
+}
+.p-trainer-contant h2 {
+    font-size: 70px;
+    line-height: 1;
 }
