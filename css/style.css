@@ -267,10 +267,17 @@ Footer Area
 }
 input[type="email"] {
     padding: 16px 15px;
-    color: #cccccc;
+    color: #888;
 }
 input[type="email"]::placeholder {
-    color: #cccccc;
+    color: #888;
+}
+input[type="tel"] {
+    padding: 16px 15px;
+    color: #888;
+}
+input[type="tel"]::placeholder {
+    color: #888;
 }
 .subscribe a.btn {
     padding: 12px 25px;
