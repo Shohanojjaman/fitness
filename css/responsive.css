@@ -1,0 +1,193 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        width: 960px;
+    }
+    .main-manu li {
+        padding-right: 20px;
+    }
+    .header-right li {
+        padding-left: 10px;
+    }
+    .header-right li a {
+        display: block;
+    }
+    .b-btn {
+        padding: 5px 10px;
+    }
+    .top-banner-contant h2 {
+        font-size: 45px;
+        line-height: 1;
+    }
+    .top-banner-contant p {
+        margin-bottom: 40px;
+    }
+    .booking-area {
+        height: 440px;
+    }
+    .booking-img img {
+        width: 100%;
+    }
+    section.about-us {
+        background-size: 500px;
+    }
+    section.about-us {
+        height: 700px;
+    }
+    .program-contant h3 {
+        font-size: 25px;
+    }
+    .p-trainer-contant h4 {
+        font-size: 28px;
+    }
+    .p-trainer-contant h2 {
+        font-size: 55px;
+    }
+    section.p-trainer {
+        height: 375px;
+        background-size: contain;
+    }
+    .p-trainer-overlay-color {
+        height: 375px;
+        margin-top: -375px;
+    }
+    .left-side {
+        height: 320px;
+        background-size: 600px;
+        background-repeat: no-repeat;
+    }
+    .left-contant h4 {
+        margin-bottom: 10px;
+    }
+    .left-contant h2 {
+        margin-bottom: 25px;
+    }
+    .right-side {
+        height: 320px;
+        background-size: 600px;
+        background-repeat: no-repeat;
+    }
+    .right-contant h4 {
+        margin-bottom: 10px;
+    }
+    .right-contant h2 {
+        margin-bottom: 25px;
+    }
+    .social span {
+        margin-right: 10px;
+    }
+    .social svg {
+        margin-right: 5px;
+    }
+    input[type="email"] {
+        padding: 16px 5px;
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 720px;
+    }
+    .main-manu li {
+        padding-right: 12px;
+    }
+    .top-banner-contant h2 {
+        font-size: 35px;
+        line-height: 1;
+    }
+    .top-banner-contant p {
+        margin-bottom: 30px;
+    }
+    .top-banner {
+        height: 594px;
+        background-size: 1000px;
+        background-position: center;
+    }
+    .booking-area {
+        height: 470px;
+        margin-top: -110px;
+    }
+    .booking-img img {
+        width: 100%;
+    }
+    .date span {
+        margin-right: 0px;
+    }
+    .time span {
+        margin-right: 20px;
+    }
+    input#time {
+        right: 25px;
+    }
+    .nice-select.name-select {
+        margin-right: 0;
+    }
+    section.about-us {
+        height: 600px;
+        background-size: 400px;
+    }
+    .program-contant h3 {
+        font-size: 16px;
+    }
+    .program-contant p {
+        font-size: 14px;
+    }
+    section.p-trainer {
+        height: 335px;
+        background-size: 900px;
+        background-position: center;
+    }
+    .p-trainer-overlay-color {
+        height: 330px;
+        margin-top: -332px;
+    }
+    .p-trainer-contant h4 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .p-trainer-contant h2 {
+        font-size: 40px;
+    }
+    .trainer-img img {
+        width: 100%;
+    }
+    .left-side {
+        background-size: 590px;
+        background-position: center;
+    }
+    .left-contant h4 {
+        margin-bottom: 10px;
+    }
+    .left-contant h2 {
+        margin-bottom: 25px;
+    }
+    .right-side {
+        background-size: 590px;
+        background-position: center;
+    }
+    .right-contant h4 {
+        margin-bottom: 10px;
+    }
+    .right-contant h2 {
+        margin-bottom: 25px;
+    }
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
