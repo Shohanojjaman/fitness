@@ -6,6 +6,6 @@ This is my PSD to HTML project.
 - jQuery
 
 
-[Live Priview](#)
+[Live Priview](https://shohanojjaman.github.io/fitness/)
 # Download PSD file
 [PSD Link](https://s01.free-psd-templates.com/bllzdwb/FreeFitness.zip)
